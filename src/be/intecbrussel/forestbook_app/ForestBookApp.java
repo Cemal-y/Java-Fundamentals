@@ -12,7 +12,8 @@ public class ForestBookApp {
 	public static void main(String[] args) {
 		// new Forest Notebook
 		ForestNotebook forestNotebook = new ForestNotebook();
-		
+
+		//TODO clean up dead code since you never used it
 		Random randomGenerator = new Random(); 
 		
 		// Plants
@@ -81,7 +82,10 @@ public class ForestBookApp {
 		
 		//Setting Maximum food Size for a Carnivore
 		lion.setMaxFoodSize(85);
-		
+
+		//TODO you are printing the animals and you added plants to
+		// their diet but the diet never gets printed..
+
 		// printing animals and plants in the book
 		System.out.println("Before Sorting:");
 		forestNotebook.PrintNotebook();

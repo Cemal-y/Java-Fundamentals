@@ -28,7 +28,8 @@ public class Herbivore extends Animal{
 	public void addPlantToDiet(Plant plant) {
 		plantDiet.add(plant);
 	}
-	
+
+	//TODO never leave an empty method
 	public void printDiet() {
 		
 	}

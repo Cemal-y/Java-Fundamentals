@@ -1,5 +1,6 @@
 package be.intecbrussel.entities.animal_entities;
 
+//TODO je hebt de UML niet strict gevolgd
 public class Animal implements Comparable<Animal>{
 
 	protected String name;
